@@ -1,0 +1,18 @@
+<h1>¡¡READY!!</h1>
+
+<% if @new_word %>
+  <p>The anagrams for "<%= @new_word.upcase %>":</p>
+  <br><br/>
+  <br><br/>
+  <br><br/>
+  <br><br/>
+  <br><br/>
+  <br>
+  <% i = 1 %>
+  <% @anagrams.each do |anagram|%>
+    <p><%= i %>.- <%= anagram %> </
+    <% i += 1 %>
+  <br>
+  <p>¡ THANK´S FOR PLAYING !</p>
+  <% end %>
+<% end %>

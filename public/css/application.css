@@ -1,0 +1,25 @@
+.container {
+  margin: 20px auto;
+  width: 525px;
+  height: 495;
+  padding: 0px 20px 20px 20px;
+ /* border: 1px dotted gray;*/
+  background-image: url("https://s-media-cache-ak0.pinimg.com/564x/dc/28/0a/dc280a083eb9e63854acf11d36501065.jpg");
+}
+
+h1 {
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  opacity: .5;
+}
+form {
+  padding: 250px 0px 0px 0px;
+  text-align: center;
+  color: white;
+}
